@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: orange;
+  padding-block: 10px;
+  padding-inline: 8px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #000;
+}
+
+.header--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header--right * {
+  padding-inline: 10px;
+}
